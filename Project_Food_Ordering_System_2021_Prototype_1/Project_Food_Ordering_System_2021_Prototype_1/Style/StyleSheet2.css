@@ -1,0 +1,119 @@
+﻿body {
+    background-image: url('../Image/staff.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    align-items: center;
+}
+
+.wrapper 
+{
+    width: 950px;
+    margin: auto;
+    position: relative;
+}
+
+.title {
+    text-align: center;
+    color: rgb(243, 243, 243);
+    width: 100%;
+    background-color: rgb(120, 99, 90);
+}
+
+.content
+{
+    width: 100%;
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 5px 5px 5px 5px;
+    float: left;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    min-height: 400px;
+    background-color: aliceblue;
+}
+
+.menu
+{
+    background-color: rgb(120, 99, 90);
+    width: 100%;
+    margin: 0px 0px 10px;
+    padding: 0px;
+    height: 40px;
+    color: rgb(243, 243, 243);
+    border-radius: 5px 5px 5px 5px;
+}
+
+.menuRight
+{
+    
+}
+
+.navigation_first_item 
+{
+    border-left: 0px;
+    border-radius: 5px 0 0 5px;
+}
+
+.navitem_s
+{
+    float: left;
+    border-right: 1px solid rgb(10, 85, 125);
+    border-left: 1px solid rgb(67, 153, 200);
+    height: 40px;
+    background-color: rgb(14, 79, 114);
+}
+
+.menu ul li
+{
+    float: left;
+    display: block;
+    line-height: 25px;
+    padding: 8px 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.menu ul li:hover
+{
+    background-color: rgb(13, 78, 9);
+}
+
+.clear
+{
+    clear: both;
+}
+
+a 
+{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+
+.myButtons {
+    background-color: white;
+    border: 2px solid rgb(120, 99, 90);
+    color: #78635a;
+    text-align: center;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 4px;
+    }
+
+    .myButtons:hover {
+        background-color: #78635a;
+        border: none;
+        color: white;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+.footer h2 {
+    background-color: rgb(120, 99, 90);
+    padding: 15px;
+    font-size: 16px;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    
+}

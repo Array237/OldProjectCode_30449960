@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="Project_Food_Ordering_System_2021_Prototype_1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="Style/StyleSheet2.css" rel="stylesheet" />
+    <title>
+        <asp:ContentPlaceHolder ID="Title" runat="server">
+        </asp:ContentPlaceHolder>
+    </title>
+    <link href="Style/StyleSheet2.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        
+    <div class="wrapper">
+        <div class="title">
+            <asp:Label ID="Label4" runat="server" Text="Student Cafeteria Centre" Font-Size="16pt" ></asp:Label>
+        </div>
+        <div class="menu">
+            <ul>
+                 <li><a runat="server" id="loginLink" visible="true"
+                       href="/Views/Authentication/Login.aspx">Login</a></li>
+                <li><a runat="server" id="registerLink" visible="true"
+                       href="/Views/Authentication/ClientRegister.aspx">Register</a></li>
+                <li><a href="/Views/Home/HomePage.aspx">Home</a></li>
+                <li><a runat="server" id="adminLink" visible="false"
+                       href="/Views/Admin/AdminSelection.aspx">Admin</a></li>
+                <li><a runat="server" id="staffLink" visible="false"
+                       href="/Views/Staff/StaffSelectionPage.aspx">Staff</a></li>
+                <li><a runat="server" id="placeOrderLink" visible="true"
+                       href="/Views/Client/ClientOrder.aspx">Place Order</a></li>
+                <li><a runat="server" id="basketLink" visible="false"
+                       href="/Views/Client/Basket.aspx">Basket</a></li>
+                <li><a runat="server" id="maintainLink" visible="false"
+                       href="/Views/Client/ClientMaintainInformation.aspx">Maintain</a></li>
+                <li><a runat="server" id="orderLink" visible="false"
+                       href="/Views/Client/ClientPlacedOrders.aspx">Order History</a></li>
+                <li><a runat="server" id="logoutLink" visible="false"
+                       href="/Views/Authentication/Logout.aspx">Logout</a></li>
+            </ul>
+
+        </div>
+        <div class="clear"></div>
+        <div class="content">
+            <asp:ContentPlaceHolder ID="contentBody" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="clear"></div>
+        <div class="footer">
+            <h2>
+                Copyright 2021 - Student Cafeteria 
+            </h2>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
